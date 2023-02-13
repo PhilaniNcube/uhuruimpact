@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HomepageHero = () => {
   return (
-    <section>
+    <section className="relative">
       <div className="absolute top-0 left-1 lg:left-3 items-center hidden lg:flex space-x-4 rotate-90 z-[30]">
         <span className="h-[1px] bg-light-grey w-[200px]" />
         <p className="text-light-grey text-md uppercase tracking-[8px]">Home</p>
