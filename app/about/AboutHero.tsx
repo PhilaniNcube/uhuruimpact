@@ -1,3 +1,4 @@
+import MediumHeading from "@/components/Typography/MediumHeading";
 import Watermark from "@/components/Typography/Watermark";
 import Image from "next/image";
 
@@ -17,19 +18,18 @@ const AboutHero = () => {
           </div>
           <div className="w-full relative isolate px-8 lg:pl-20 lg:-translate-x-[20%] flex-1 flex items-end ">
             <div className="w-full ">
-              <h1 className="text-medium-grey font-bold text-4xl lg:text-8xl absolute -left-20 lg:left-20 tracking-widest rotate-90 lg:rotate-0 top-28 lg:top-10">
-                About Us
-              </h1>
+
               <div className="w-full flex flex-col bg-white py-10 px-8 lg:pl-20 items-start justify-center">
-                <h2 className="text-dark-blue text-xl lg:text-2xl font-bold mb-4">
+
+                <h2 className="text-dark-blue text-xl lg:text-4xl font-bold mb-4">
                   Enabling Impact Investing
                 </h2>
-                <p className="text-md lg:text-lg font-medium text-dark-blue">
+                <p className="text-dark-blue font-medium text-base md:text-xl leading-7 mb-3">
                   With an eye on realising high financial return and positive
                   social outcomes, we enable venture funding for early-stage
                   businesses showing high growth potential.
                 </p>
-                <p className="text-md lg:text-lg font-medium text-dark-blue">
+                <p className="text-dark-blue font-medium text-base md:text-xl leading-7 mt-4">
                   Our partners seek to invest in highly profitable businesses
                   that also yield social return, whether in alignment with
                   Environmental, Social and Governance (ESG) considerations, UN

@@ -14,10 +14,10 @@ const TeamHero = () => {
           className="w-full object-cover"
         />
         <div className="absolute mx-8 sm:mx-6 inset-0">
-          <div className="pl-16 lg:pl-56 flex h-full bg-slate-800/30 flex-col justify-center items-start">
+          <div className="pl-16 lg:pl-44 pr-10 lg:pr-36 flex h-full bg-slate-800/30 flex-col justify-center items-start">
             <MediumHeading
               color="text-very-light-grey"
-              text="Small team, big ideas"
+              text="Large expert network, quick execution"
             />
             <Link
               href="/about"

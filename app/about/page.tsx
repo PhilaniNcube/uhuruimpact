@@ -7,8 +7,8 @@ export default function About() {
   return (
     <Fragment>
       <main>
-        <AboutHero />
         <Advisory />
+        <AboutHero />
       </main>
     </Fragment>
   );

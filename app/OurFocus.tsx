@@ -6,7 +6,7 @@ const OurFocus = () => {
   const focusAreas = [
     {
       id: 1,
-      title: "Agriculture",
+      title: "Sustainable Agriculture",
       description: "Cattle farming and Hydroponic Greenhouse Agriculture",
       image: "/images/home/desktop/agriculture.jpg",
       width: 1280,
@@ -14,7 +14,7 @@ const OurFocus = () => {
     },
     {
       id: 2,
-      title: "Childhood Development",
+      title: "Education",
       description: "Early childhood development and mentorship",
       image: "/images/home/desktop/development.jpg",
       width: 1280,
@@ -32,10 +32,10 @@ const OurFocus = () => {
   ];
 
   return (
-    <section className="pt-10">
+    <section className="pt-10 lg:pt-20">
       <div className=" max-w-7xl mx-auto relative isolate px-8 sm:px-6">
         <MediumHeading text="Our Focus" color="text-dark-blue" />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
           {focusAreas.map((item) => (
             <div key={item.id} className="w-full relative isolate group ">
               <Image
