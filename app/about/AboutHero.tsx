@@ -13,7 +13,7 @@ const AboutHero = () => {
               width={635}
               height={720}
               alt="About"
-              className="w-full aspect-square object-cover"
+              className="w-full aspect-square object-cover grayscale"
             />
           </div>
           <div className="w-full relative isolate px-8 lg:pl-20 lg:-translate-x-[20%] flex-1 flex items-end ">

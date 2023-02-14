@@ -7,11 +7,11 @@ const TeamHero = () => {
     <section className="pt-10">
       <div className=" max-w-7xl mx-auto relative isolate px-8 sm:px-6">
         <Image
-          src="/images/home/desktop/image-small-team.jpg"
+          src="/images/home/desktop/experts.jpg"
           width={1110}
           height={560}
           alt="Team"
-          className="w-full object-cover"
+          className="w-full object-cover aspect-video"
         />
         <div className="absolute mx-8 sm:mx-6 inset-0">
           <div className="pl-16 lg:pl-44 pr-10 lg:pr-36 flex h-full bg-slate-800/30 flex-col justify-center items-start">

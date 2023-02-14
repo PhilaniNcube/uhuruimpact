@@ -15,7 +15,7 @@ const HomepageHero = () => {
           width={1110}
           height={720}
           alt="Background"
-          className="w-full object-cover aspect-[2/3] lg:aspect-video"
+          className="w-full object-cover aspect-[2/3] lg:aspect-video grayscale"
         />
         <div className="absolute inset-0 ">
           <div className="flex flex-col h-full px-16 md:px-36 justify-center ">

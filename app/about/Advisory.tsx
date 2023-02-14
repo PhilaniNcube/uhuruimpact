@@ -20,11 +20,11 @@ const Advisory = () => {
             </p>
           </div>
           <Image
-            src="/images/home/desktop/advisory.jpg"
-            width={1500}
-            height={880}
+            src="/images/home/desktop/advice.jpg"
+            width={1920}
+            height={1280}
             alt="Advisory"
-            className="w-full aspect-square object-cover"
+            className="w-full aspect-square object-cover grayscale"
           />
         </div>
       </div>

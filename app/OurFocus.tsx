@@ -16,7 +16,7 @@ const OurFocus = () => {
       id: 2,
       title: "Education",
       description: "Early childhood development and mentorship",
-      image: "/images/home/desktop/development.jpg",
+      image: "/images/home/desktop/education.jpg",
       width: 1280,
       height: 1920,
     },
@@ -25,7 +25,7 @@ const OurFocus = () => {
       title: "Healthcare",
       description:
         "Affordable healthcare services from low cost clinics",
-      image: "/images/home/desktop/clinics.jpg",
+      image: "/images/home/desktop/healthcare.jpg",
       width: 1280,
       height: 1920,
     },
@@ -43,7 +43,7 @@ const OurFocus = () => {
                 width={item.width}
                 height={item.height}
                 alt={item.title}
-                className="w-full object-cover"
+                className="w-full object-cover grayscale"
               />
               <div className="absolute inset-0 bg-slate-800/40 group-hover:bg-slate-800/70 p-10 flex flex-col justify-end overflow-hidden">
                 <p className="text-3xl text-very-light-grey font-bold">
