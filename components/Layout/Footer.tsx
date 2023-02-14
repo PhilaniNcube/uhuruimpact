@@ -5,15 +5,15 @@ const Footer = () => {
   return (
     <footer className="py-10">
       <div className="max-w-7xl mx-auto flex px-8 lg:px-6">
-        <div className="bg-medium-grey px-8 flex items-center justify-center aspect-square">
+        <div className="bg-dark-blue px-1 flex items-center justify-center aspect-square">
           <Link
             href="/"
             className="text-lg md:text-xl text-very-light-grey font-bold"
           >
             <img
-              src="/images/logo.png"
+              src="/images/white_logo.png"
               alt="logo"
-              className="w-20 aspect-square object-cover"
+              className="w-36 object-cover"
             />
           </Link>
         </div>
