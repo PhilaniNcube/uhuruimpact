@@ -1,3 +1,4 @@
+"use client"
 import MediumHeading from "@/components/Typography/MediumHeading";
 
 const ContactForm = () => {
@@ -7,7 +8,18 @@ const ContactForm = () => {
         <div className="w-full lg:w-1/3">
           <MediumHeading text="Lets' Connect" color="text-dark-blue" />
         </div>
-        <form className="flex-1 pr-10 lg:pr-28">
+        <form
+          className="flex-1 pr-10 lg:pr-28"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="f2709411-7a6f-493f-af01-9d77aba1b211"
+          />
+          <input type="checkbox" name="botcheck" className="sr-only"/>
+
           <div className="w-full lg:w-2/3 flex flex-col mb-4">
             <label className="text-light-grey font-bold text-lg" htmlFor="name">
               Name
@@ -71,7 +83,7 @@ const ContactForm = () => {
             className="bg-dark-blue hover:bg-medium-grey text-light-grey font-medium text-xl flex items-center space-x-3 w-fit px-10 py-4 mt-4"
           >
             {" "}
-           Submit
+            Submit
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
