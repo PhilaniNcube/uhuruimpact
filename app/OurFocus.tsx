@@ -6,15 +6,15 @@ const OurFocus = () => {
   const focusAreas = [
     {
       id: 1,
-      title: "Sustainable Agriculture",
+      title: "Sustainable livestock and crop farming",
       description: "Cattle farming and Hydroponic Greenhouse Agriculture",
-      image: "/images/home/desktop/agriculture.jpg",
+      image: "/images/home/desktop/cows.jpg",
       width: 1280,
       height: 1920,
     },
     {
       id: 2,
-      title: "Education",
+      title: "Early Childhood Education",
       description: "Early childhood development and mentorship",
       image: "/images/home/desktop/education.jpg",
       width: 1280,
@@ -22,7 +22,7 @@ const OurFocus = () => {
     },
     {
       id: 3,
-      title: "Healthcare",
+      title: "Affordable healthcare services",
       description:
         "Affordable healthcare services from low cost clinics",
       image: "/images/home/desktop/healthcare.jpg",
@@ -43,7 +43,7 @@ const OurFocus = () => {
                 width={item.width}
                 height={item.height}
                 alt={item.title}
-                className="w-full object-cover grayscale"
+                className="w-full h-full object-cover grayscale"
               />
               <div className="absolute inset-0 bg-slate-800/40 group-hover:bg-slate-800/70 p-10 flex flex-col justify-end overflow-hidden">
                 <p className="text-3xl text-very-light-grey font-bold">

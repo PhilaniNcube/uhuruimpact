@@ -11,7 +11,7 @@ const Footer = () => {
             className="text-lg md:text-xl text-very-light-grey font-bold"
           >
             <img
-              src="/images/white_logo.png"
+              src="/images/uhuru.png"
               alt="logo"
               className="w-36 object-cover"
             />
