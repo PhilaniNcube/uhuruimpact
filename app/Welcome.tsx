@@ -11,7 +11,7 @@ const Welcome = () => {
           <div className="col-span-1 lg:col-span-2 flex flex-col justify-center items-start pl-10 lg:pl-36">
             <MediumHeading text="Who We Are" color="text-dark-blue" />
             <p className="text-medium-grey font-medium text-lg leading-7 mt-3 max-w-[45ch]">
-              Uhuru Impact is a multi-service provider focusing on advisory
+              Established in 2016, Uhuru Impact is a multi-service provider focusing on advisory
               services and impact investing across the African continent.
             </p>
             <p className="text-medium-grey font-medium text-lg leading-7 mt-2 mb-6 max-w-[45ch]">
