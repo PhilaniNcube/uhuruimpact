@@ -14,7 +14,7 @@ const OurFocus = () => {
     },
     {
       id: 2,
-      title: "Early Childhood Education",
+      title: "Quality low cost education",
       description: "Early childhood development and mentorship",
       image: "/images/home/desktop/education.jpg",
       width: 1280,
@@ -23,8 +23,7 @@ const OurFocus = () => {
     {
       id: 3,
       title: "Affordable healthcare services",
-      description:
-        "Affordable healthcare services from low cost clinics",
+      description: "Affordable healthcare services from low cost clinics",
       image: "/images/home/desktop/healthcare.jpg",
       width: 1280,
       height: 1920,
@@ -49,7 +48,7 @@ const OurFocus = () => {
                 <p className="text-3xl text-very-light-grey font-bold">
                   {item.title}
                 </p>
-                <small className="text-lg leading-5 text-transparent -translate-x-4 group-hover:translate-x-0 transition-all duration-1000 group-hover:text-very-light-grey">
+                <small className="text-lg sr-only leading-5 text-transparent -translate-x-4 group-hover:translate-x-0 transition-all duration-1000 group-hover:text-very-light-grey">
                   {item.description}
                 </small>
               </div>
