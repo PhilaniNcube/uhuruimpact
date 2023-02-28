@@ -28,7 +28,7 @@ const Footer = () => {
             <img
               src="/images/uhuru.png"
               alt="logo"
-              className="w-36 object-cover"
+              className="w-36 md:w-40 lg:w-44 object-cover"
             />
           </Link>
         </div>
